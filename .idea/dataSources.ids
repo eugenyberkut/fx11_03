@@ -15,6 +15,7 @@
       <column id="6" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
       </column>
       <column id="7" parent="2" name="name">
         <mandatory>1</mandatory>
@@ -31,6 +32,7 @@
       <column id="10" parent="3" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
       </column>
       <column id="11" parent="3" name="name">
         <mandatory>1</mandatory>
@@ -94,6 +96,7 @@ publishing_id</columns>
       <column id="24" parent="5" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
       </column>
       <column id="25" parent="5" name="name">
         <mandatory>1</mandatory>

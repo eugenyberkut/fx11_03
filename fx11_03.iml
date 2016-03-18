@@ -6,6 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="EclipseLink" />
         <datasource-mapping>
+          <factory-entry name="NewPU" value="a22276e9-69fd-4fc5-8ed2-d037000cd86b" />
           <factory-entry name="NewPersistenceUnit" value="a22276e9-69fd-4fc5-8ed2-d037000cd86b" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
@@ -17,7 +18,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JPA 2.1-2.1" level="project" />
     <orderEntry type="library" name="org.eclipse.persistence:eclipselink:2.5.2" level="project" />
